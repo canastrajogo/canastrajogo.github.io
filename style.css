@@ -1,0 +1,12 @@
+tr:nth-child(even) {
+    background-color: #cfe3cb;
+  }
+  .bodyDesign{
+      margin:auto;
+      background-color: rgb(236, 241, 227);
+      font-family: Verdana;
+  }
+  .button{
+    font-size: 20px;
+    padding: 10px;
+  }

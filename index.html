@@ -1,29 +1,35 @@
-<HTML>
+<HTML lang="pt-br">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <link rel="icon" href = "https://cdn4.iconfinder.com/data/icons/casino-general/512/Stack_of_Cards-512.png" type = "image/x-icon">
+        <title>Canastra</title>
     </head>
-    <body>
-      <table>
-        <thead>
-          <tr>
-            <td>Time A</td>
-            <td>Time B</td>
-            <td></td>
-          </tr>
-        </thead>
-        <tbody id="results">
-          <tr>
-            <td><input type="number" id="inputA" placeholder="Pontos A" value="1" /></td>
-            <td><input type="number" id="inputB" placeholder="Pontos B" value="2" /></td>
-            <td><input type="button" id="buttonAdd" value="Adicionar" onClick="toSum()"/>
-        </tbody>
-          <tfoot>
-            <tr>
-              <td id="totalA"></td>
-              <td id="totalB"></td>
-            </tr>
-      </table>
+    <body class="bodyDesign"> 
+        <div class="container text-center">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <td>Time A</td>
+                    <td>Time B</td>
+                    <td></td>
+                </tr>
+                </thead>
+                <tbody id="results">
+                <tr>
+                    <td><input type="number" id="inputA" placeholder="Pontos A" value="1" /></td>
+                    <td><input type="number" id="inputB" placeholder="Pontos B" value="2" /></td>
+                    <td><input type="button" class= "button" id="buttonAdd" value="Adicionar" onClick="toSum()"/>
+                </tbody>
+                <tfoot>
+                    <tr>
+                    <td id="totalA"></td>
+                    <td id="totalB"></td>
+                    </tr>
+            </table>
+        </div>
     </body>
     <script src="canastra.js"></script>
   </HTML>
