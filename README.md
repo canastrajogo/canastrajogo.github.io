@@ -1,6 +1,6 @@
 # Pontuação de canastra online
 Sistema de pontuação para jogar Canastra (o jogo de cartas). 
-Link: https://canastrajogo.github.io
+Link: https://pontosdacanastra.github.io
 
 
 Como usar:
