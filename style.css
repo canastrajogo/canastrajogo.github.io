@@ -4,7 +4,7 @@ tr:nth-child(even) {
   .bodyDesign{
       margin:auto;
       background-color: rgb(236, 241, 227);
-      font-family: Verdana;
+      font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   }
   .button{
     font-size: 20px;
