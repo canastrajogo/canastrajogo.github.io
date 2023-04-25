@@ -4,6 +4,12 @@ var totalTeamA = 0;
 var totalTeamB = 0;
 
 function toSum() {
+  if (!elementA.value || !elementB.value) {
+    alert ("Please add a value!");
+    elementA.value = 0;
+    elementB.value = 0;
+}
+else
   addLine(elementA.value, elementB.value);
   updateTotals(elementA.value, elementB.value);
 }
